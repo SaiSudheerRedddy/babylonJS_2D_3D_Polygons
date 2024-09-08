@@ -46,7 +46,8 @@ Note : When the button is Red Color i.e functionality in active state
 # Restictions & Scope for improvements:
 1.  When an 2D object is created, we need to extrude the object before creating a new one. This restriction is because the same points array is used to store the 2D shape point location and for the extrustion of the polygon.
 2.  The naming conventions of the variables & function name should be improved and try to keep as standard as possible.
-3.  Improve error handling during vertex edit mode. 
+3.  Improve error handling during vertex edit mode.
+4.  The code is written with helps of classes and objects so that code can be structures in a better way. Need to improve in structuring better with more classes and obejcts. 
 
 # Improvement :
 1. The draw 2D object restiction can be improved by using a DS to store all points of a 2D shape in a particular index, this way we can store multiple 2D shapes and then all the shaped can be extruded during the extrude process.

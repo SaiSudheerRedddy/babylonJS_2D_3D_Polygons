@@ -1,10 +1,11 @@
 # snapTrude_Assignment | SDE Algorithms
 
 # Instruction to run Project :
-'''bash
+```bash
 npm install -D @babylonjs/core
 npm install -D @babylonjs/gui
-npm run Dev'''
+npm run Dev
+```
 
 # Functionality Requirments :
 

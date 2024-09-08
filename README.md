@@ -1,11 +1,12 @@
 # snapTrude_Assignment | SDE Algorithms
 
-#Instruction to run Project :
-1. npm install -D @babylonjs/core
-2. npm install -D @babylonjs/gui
-3. npm run Dev
+# Instruction to run Project :
+'''bash
+npm install -D @babylonjs/core
+npm install -D @babylonjs/gui
+npm run Dev'''
 
-#Functionality Requirments :
+# Functionality Requirments :
 
 1. Use Babylon.js to create a 3D scene with a ground plane.
 
@@ -20,7 +21,7 @@
 6. Provide visual cues and UI elements to indicate the selected object and active editing mode (move or edit vertices).
 
 
-#How to Use :
+# How to Use :
 1. Entering Draw Mode
    1. Left click to place and point in the 2D plane
    2. Right click for the last point on the 2D plane to complete the 2D shape.
@@ -35,7 +36,7 @@
   2. The object shape will deform according to the movement in real - time.
   3. On release of the click the object is freezed with the new shape.
 
-#Restictions & Points for Improvement:
+# Restictions & Points for Improvement:
 1.  When an 2D object is created, we need to extrude the object before creating a new one. This restriction is because the same points array is used to store the 2D shape point location and for the extrustion of the polygon.
 Solution for Improvement : This can be improved by using a DS to store all points of a 2D shape in a particular index, this way we can store multiple 2D shapes and then all the shaped can be extruded during the extrude process.
    

@@ -47,7 +47,11 @@ Note : When the button is Red Color i.e functionality in active state
 1.  When an 2D object is created, we need to extrude the object before creating a new one. This restriction is because the same points array is used to store the 2D shape point location and for the extrustion of the polygon.
 2.  The naming conventions of the variables & function name should be improved and try to keep as standard as possible.
 3.  Improve error handling during vertex edit mode.
-4.  The code is written with helps of classes and objects so that code can be structures in a better way. Need to improve in structuring better with more classes and obejcts. 
+4.  The Move Mode and Vertex Edit mode should not be activate at same time, this will block the vertex edit functionality. All the modes should be deactivated and then user should again enter vertex edit mode to make changes.
+5.  Once the extruded shape is moved with the move functionality, the 2D sketch of the shape on the ground plane still remains
+<img width="803" alt="Screenshot 2024-09-08 at 7 19 06 PM" src="https://github.com/user-attachments/assets/b18d3f3a-3cda-4f87-b23e-b56859adc65c">
+
+6.  The code is written with helps of classes and objects so that code can be structures in a better way. Need to improve in structuring better with more classes and obejcts. 
 
 # Improvement :
 1. The draw 2D object restiction can be improved by using a DS to store all points of a 2D shape in a particular index, this way we can store multiple 2D shapes and then all the shaped can be extruded during the extrude process.

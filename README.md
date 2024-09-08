@@ -38,7 +38,7 @@ npm run Dev
   3. On release of the click the object is freezed with the new shape.
 
 # Restictions & Points for Improvement:
-1.  When an 2D object is created, we need to extrude the object before creating a new one. This restriction is because the same points array is used to store the 2D shape point location and for the extrustion of the polygon.
+1.  When an 2D object is created, we need to extrude the object before creating a new one. This restriction is because the same points array is used to store the 2D shape point location and for the extrustion of the polygon.\\
 Solution for Improvement : This can be improved by using a DS to store all points of a 2D shape in a particular index, this way we can store multiple 2D shapes and then all the shaped can be extruded during the extrude process.
    
 

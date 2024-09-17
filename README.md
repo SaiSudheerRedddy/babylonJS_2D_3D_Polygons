@@ -1,8 +1,5 @@
-# snapTrude_Assignment | SDE Algorithms
 
-As part of this assignment, I have developed a tool with a functinality to create a 2D shape on the ground plane and extrude thae 2D shape. 
-
-The tool also gives us functionality to move the extruded object on the 2D plane and the vertice of the extruded object can be moved in the 3D space by diffusing the shape of the 3D object.
+# 2D/3D Polygon using BabylonJS
 
 # Instruction to run Project :
 ```bash
